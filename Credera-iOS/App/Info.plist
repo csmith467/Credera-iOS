@@ -22,13 +22,18 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSHealthShareUsageDescription</key>
+	<string>OCKSample would like to access your Health data to help you track your symptoms and your treatment. </string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>OCKSample would like to write Health data to help you track your symptoms and your treatment.</string>
 	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
+	<string>CareLaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>MainTabBarApp</string>
+	<string>CareMain</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
+		<string>healthkit</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

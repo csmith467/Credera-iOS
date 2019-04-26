@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		1C4D6B3DE27C746F5B67A025 /* Pods_Credera_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6428362F40383B253C816DD2 /* Pods_Credera_iOSUITests.framework */; };
 		51EBCB0094D9A84B9476529F /* Pods_Credera_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776C2608FC32935341C444AC /* Pods_Credera_iOSTests.framework */; };
-		5910781621DD1FC60017CA21 /* MainSinglePageApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5910781521DD1FC60017CA21 /* MainSinglePageApp.storyboard */; };
 		5910781B21DD21900017CA21 /* NavigationController+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910781A21DD21900017CA21 /* NavigationController+Transitions.swift */; };
-		5910781E21DD22770017CA21 /* MainSinglePageAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910781D21DD22770017CA21 /* MainSinglePageAppViewController.swift */; };
-		5910782021DD24AE0017CA21 /* MainTabBarApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5910781F21DD24AE0017CA21 /* MainTabBarApp.storyboard */; };
-		5910782321DD252A0017CA21 /* MainTabBarAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910782221DD252A0017CA21 /* MainTabBarAppViewController.swift */; };
-		5910782721DD263C0017CA21 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5910782621DD263C0017CA21 /* First.storyboard */; };
-		5910782A21DD28A40017CA21 /* AppHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910782921DD28A40017CA21 /* AppHeaderView.swift */; };
-		5910782C21DD28AF0017CA21 /* AppHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5910782B21DD28AF0017CA21 /* AppHeaderView.xib */; };
 		5910782E21DD29410017CA21 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910782D21DD29410017CA21 /* XibView.swift */; };
 		5910783021DD299F0017CA21 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910782F21DD299F0017CA21 /* Constants.swift */; };
 		5910783221DD29E00017CA21 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910783121DD29E00017CA21 /* UIColor+Extension.swift */; };
-		5910783521DD2AC40017CA21 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910783421DD2AC40017CA21 /* FirstViewController.swift */; };
-		5910783721DD2B170017CA21 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5910783621DD2B170017CA21 /* Second.storyboard */; };
-		5910783A21DD2BD80017CA21 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910783921DD2BD80017CA21 /* SecondViewController.swift */; };
 		591823AD223B05110062ED0C /* GeoApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591823AC223B05110062ED0C /* GeoApiModel.swift */; };
+		59476C9E22736C00001F7D12 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476C9D22736C00001F7D12 /* RootViewController.swift */; };
+		59476CA122736C0D001F7D12 /* CareLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59476C9F22736C0D001F7D12 /* CareLaunchScreen.storyboard */; };
+		59476CA222736C0D001F7D12 /* CareMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59476CA022736C0D001F7D12 /* CareMain.storyboard */; };
+		59476CAB22736D90001F7D12 /* OCKInsightItem+EmptyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CA922736D90001F7D12 /* OCKInsightItem+EmptyMessage.swift */; };
+		59476CAC22736D90001F7D12 /* NSCalendar+Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CAA22736D90001F7D12 /* NSCalendar+Dates.swift */; };
+		59476CB122736DF9001F7D12 /* InsightsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CAE22736DF8001F7D12 /* InsightsBuilder.swift */; };
+		59476CB222736DF9001F7D12 /* BuildInsightsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CAF22736DF9001F7D12 /* BuildInsightsOperation.swift */; };
+		59476CB322736DF9001F7D12 /* QueryActivityEventsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CB022736DF9001F7D12 /* QueryActivityEventsOperation.swift */; };
+		59476CBB22736E7F001F7D12 /* BloodGlucose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CB522736E7F001F7D12 /* BloodGlucose.swift */; };
+		59476CBC22736E7F001F7D12 /* Assessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CB622736E7F001F7D12 /* Assessment.swift */; };
+		59476CBD22736E7F001F7D12 /* HealthSampleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CB722736E7F001F7D12 /* HealthSampleBuilder.swift */; };
+		59476CBE22736E7F001F7D12 /* BackPain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CB822736E7F001F7D12 /* BackPain.swift */; };
+		59476CBF22736E7F001F7D12 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CB922736E7F001F7D12 /* Mood.swift */; };
+		59476CC022736E7F001F7D12 /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CBA22736E7F001F7D12 /* Weight.swift */; };
+		59476CC722736EF4001F7D12 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CC322736EF3001F7D12 /* Activity.swift */; };
+		59476CC822736EF4001F7D12 /* HamstringStretch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CC422736EF3001F7D12 /* HamstringStretch.swift */; };
+		59476CC922736EF4001F7D12 /* OutdoorWalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CC522736EF3001F7D12 /* OutdoorWalk.swift */; };
+		59476CCA22736EF4001F7D12 /* TakeMedication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CC622736EF4001F7D12 /* TakeMedication.swift */; };
+		59476CCC22736EFC001F7D12 /* Caffeine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CCB22736EFC001F7D12 /* Caffeine.swift */; };
+		59476CCF22736F32001F7D12 /* Glyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CCE22736F32001F7D12 /* Glyph.swift */; };
+		59476CD222736F8F001F7D12 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CD122736F8E001F7D12 /* Colors.swift */; };
+		59476CD5227370BA001F7D12 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59476CD4227370BA001F7D12 /* HealthKit.framework */; };
+		59476CD8227371C1001F7D12 /* CarePlanStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CD6227371C1001F7D12 /* CarePlanStoreManager.swift */; };
+		59476CD9227371C1001F7D12 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59476CD7227371C1001F7D12 /* SampleData.swift */; };
 		5949D1AD219CBBAC006D2FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5949D1AC219CBBAC006D2FF0 /* AppDelegate.swift */; };
 		5949D1B7219CBBAE006D2FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5949D1B6219CBBAE006D2FF0 /* Assets.xcassets */; };
 		5949D1BA219CBBAE006D2FF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5949D1B8219CBBAE006D2FF0 /* LaunchScreen.storyboard */; };
@@ -53,11 +67,7 @@
 		AFBD0D262242F4F300123314 /* UsersApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD0D252242F4F300123314 /* UsersApiRequest.swift */; };
 		AFBD0D272242F4F300123314 /* UsersApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD0D252242F4F300123314 /* UsersApiRequest.swift */; };
 		AFBD0D282242F7E100123314 /* ApiProviderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB69477223A912F009473AE /* ApiProviderConfig.swift */; };
-		AFD1E22A223A84C300131E4A /* NavigationIntermediate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1E229223A84C300131E4A /* NavigationIntermediate.storyboard */; };
-		AFD1E22C223A84DF00131E4A /* NavigationIntermediateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1E22B223A84DF00131E4A /* NavigationIntermediateViewController.swift */; };
 		AFD1E22E223A870700131E4A /* NavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1E22D223A870700131E4A /* NavigationHelper.swift */; };
-		AFD1E234223AA50A00131E4A /* NavigationFinal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1E233223AA50A00131E4A /* NavigationFinal.storyboard */; };
-		AFD1E236223AA53D00131E4A /* NavigationFinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1E235223AA53D00131E4A /* NavigationFinalViewController.swift */; };
 		AFD8F72E223E070C00D9306F /* Credera_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD8F72D223E070C00D9306F /* Credera_iOSTests.swift */; };
 		AFD8F736223E082400D9306F /* RequestCallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD8F735223E082400D9306F /* RequestCallerTests.swift */; };
 		AFD8F73A223E0A1C00D9306F /* RequestCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB6945F22389FB2009473AE /* RequestCaller.swift */; };
@@ -87,21 +97,36 @@
 		14E5DCA8444542B540C0F562 /* Pods-Credera-iOSTests.debug_qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credera-iOSTests.debug_qa.xcconfig"; path = "Pods/Target Support Files/Pods-Credera-iOSTests/Pods-Credera-iOSTests.debug_qa.xcconfig"; sourceTree = "<group>"; };
 		175E6B0EE4A1BBE1ECB067D8 /* Pods-Credera-iOS.debug_qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credera-iOS.debug_qa.xcconfig"; path = "Pods/Target Support Files/Pods-Credera-iOS/Pods-Credera-iOS.debug_qa.xcconfig"; sourceTree = "<group>"; };
 		2C09A73AF9A76DA74B9904E1 /* Pods-Credera-iOSUITests.debug_qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credera-iOSUITests.debug_qa.xcconfig"; path = "Pods/Target Support Files/Pods-Credera-iOSUITests/Pods-Credera-iOSUITests.debug_qa.xcconfig"; sourceTree = "<group>"; };
-		5910781521DD1FC60017CA21 /* MainSinglePageApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainSinglePageApp.storyboard; sourceTree = "<group>"; };
 		5910781A21DD21900017CA21 /* NavigationController+Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationController+Transitions.swift"; sourceTree = "<group>"; };
-		5910781D21DD22770017CA21 /* MainSinglePageAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSinglePageAppViewController.swift; sourceTree = "<group>"; };
-		5910781F21DD24AE0017CA21 /* MainTabBarApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabBarApp.storyboard; sourceTree = "<group>"; };
-		5910782221DD252A0017CA21 /* MainTabBarAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarAppViewController.swift; sourceTree = "<group>"; };
-		5910782621DD263C0017CA21 /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
-		5910782921DD28A40017CA21 /* AppHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeaderView.swift; sourceTree = "<group>"; };
-		5910782B21DD28AF0017CA21 /* AppHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppHeaderView.xib; sourceTree = "<group>"; };
 		5910782D21DD29410017CA21 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 		5910782F21DD299F0017CA21 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5910783121DD29E00017CA21 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		5910783421DD2AC40017CA21 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		5910783621DD2B170017CA21 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
-		5910783921DD2BD80017CA21 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		591823AC223B05110062ED0C /* GeoApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoApiModel.swift; sourceTree = "<group>"; };
+		59476C9D22736C00001F7D12 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		59476C9F22736C0D001F7D12 /* CareLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CareLaunchScreen.storyboard; sourceTree = "<group>"; };
+		59476CA022736C0D001F7D12 /* CareMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CareMain.storyboard; sourceTree = "<group>"; };
+		59476CA922736D90001F7D12 /* OCKInsightItem+EmptyMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OCKInsightItem+EmptyMessage.swift"; sourceTree = "<group>"; };
+		59476CAA22736D90001F7D12 /* NSCalendar+Dates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSCalendar+Dates.swift"; sourceTree = "<group>"; };
+		59476CAE22736DF8001F7D12 /* InsightsBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsightsBuilder.swift; sourceTree = "<group>"; };
+		59476CAF22736DF9001F7D12 /* BuildInsightsOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildInsightsOperation.swift; sourceTree = "<group>"; };
+		59476CB022736DF9001F7D12 /* QueryActivityEventsOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryActivityEventsOperation.swift; sourceTree = "<group>"; };
+		59476CB522736E7F001F7D12 /* BloodGlucose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodGlucose.swift; sourceTree = "<group>"; };
+		59476CB622736E7F001F7D12 /* Assessment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assessment.swift; sourceTree = "<group>"; };
+		59476CB722736E7F001F7D12 /* HealthSampleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthSampleBuilder.swift; sourceTree = "<group>"; };
+		59476CB822736E7F001F7D12 /* BackPain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackPain.swift; sourceTree = "<group>"; };
+		59476CB922736E7F001F7D12 /* Mood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		59476CBA22736E7F001F7D12 /* Weight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
+		59476CC322736EF3001F7D12 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		59476CC422736EF3001F7D12 /* HamstringStretch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamstringStretch.swift; sourceTree = "<group>"; };
+		59476CC522736EF3001F7D12 /* OutdoorWalk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutdoorWalk.swift; sourceTree = "<group>"; };
+		59476CC622736EF4001F7D12 /* TakeMedication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeMedication.swift; sourceTree = "<group>"; };
+		59476CCB22736EFC001F7D12 /* Caffeine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Caffeine.swift; sourceTree = "<group>"; };
+		59476CCE22736F32001F7D12 /* Glyph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Glyph.swift; sourceTree = "<group>"; };
+		59476CD122736F8E001F7D12 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		59476CD3227370BA001F7D12 /* Credera-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Credera-iOS.entitlements"; sourceTree = "<group>"; };
+		59476CD4227370BA001F7D12 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		59476CD6227371C1001F7D12 /* CarePlanStoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarePlanStoreManager.swift; sourceTree = "<group>"; };
+		59476CD7227371C1001F7D12 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		5949D1A9219CBBAC006D2FF0 /* Credera-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credera-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5949D1AC219CBBAC006D2FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5949D1B6219CBBAE006D2FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -135,11 +160,7 @@
 		AFBD0D1F2242E55900123314 /* PhotoApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoApiModel.swift; sourceTree = "<group>"; };
 		AFBD0D222242EB1F00123314 /* PhotosApiImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosApiImpl.swift; sourceTree = "<group>"; };
 		AFBD0D252242F4F300123314 /* UsersApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersApiRequest.swift; sourceTree = "<group>"; };
-		AFD1E229223A84C300131E4A /* NavigationIntermediate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigationIntermediate.storyboard; sourceTree = "<group>"; };
-		AFD1E22B223A84DF00131E4A /* NavigationIntermediateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationIntermediateViewController.swift; sourceTree = "<group>"; };
 		AFD1E22D223A870700131E4A /* NavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHelper.swift; sourceTree = "<group>"; };
-		AFD1E233223AA50A00131E4A /* NavigationFinal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigationFinal.storyboard; sourceTree = "<group>"; };
-		AFD1E235223AA53D00131E4A /* NavigationFinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationFinalViewController.swift; sourceTree = "<group>"; };
 		AFD8F72B223E070C00D9306F /* Credera-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Credera-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD8F72D223E070C00D9306F /* Credera_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credera_iOSTests.swift; sourceTree = "<group>"; };
 		AFD8F72F223E070C00D9306F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -156,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D802FBAAD7A03585ABEB5D15 /* Pods_Credera_iOS.framework in Frameworks */,
+				59476CD5227370BA001F7D12 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,89 +200,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5910781321DD1F7C0017CA21 /* MainTabBarApp */ = {
-			isa = PBXGroup;
-			children = (
-				5910781F21DD24AE0017CA21 /* MainTabBarApp.storyboard */,
-				5910782121DD25150017CA21 /* Controller */,
-				5910782821DD28640017CA21 /* Header */,
-			);
-			path = MainTabBarApp;
-			sourceTree = "<group>";
-		};
-		5910781421DD1F990017CA21 /* MainSinglePageApp */ = {
-			isa = PBXGroup;
-			children = (
-				5910781521DD1FC60017CA21 /* MainSinglePageApp.storyboard */,
-				5910781C21DD22590017CA21 /* Controller */,
-			);
-			path = MainSinglePageApp;
-			sourceTree = "<group>";
-		};
 		5910781721DD209C0017CA21 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				59476CD022736F43001F7D12 /* CareData */,
+				59476CCD22736F18001F7D12 /* Glyph */,
+				59476CC122736E9F001F7D12 /* Activities */,
+				59476CB422736E40001F7D12 /* Assessments */,
+				59476CAD22736DB9001F7D12 /* Insights */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		5910781C21DD22590017CA21 /* Controller */ = {
+		59476C9B22736B01001F7D12 /* MainCareKitApp */ = {
 			isa = PBXGroup;
 			children = (
-				5910781D21DD22770017CA21 /* MainSinglePageAppViewController.swift */,
+				59476CA022736C0D001F7D12 /* CareMain.storyboard */,
+				59476C9C22736B21001F7D12 /* Controller */,
+			);
+			path = MainCareKitApp;
+			sourceTree = "<group>";
+		};
+		59476C9C22736B21001F7D12 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59476C9D22736C00001F7D12 /* RootViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		5910782121DD25150017CA21 /* Controller */ = {
+		59476CAD22736DB9001F7D12 /* Insights */ = {
 			isa = PBXGroup;
 			children = (
-				5910782221DD252A0017CA21 /* MainTabBarAppViewController.swift */,
+				59476CAF22736DF9001F7D12 /* BuildInsightsOperation.swift */,
+				59476CAE22736DF8001F7D12 /* InsightsBuilder.swift */,
+				59476CB022736DF9001F7D12 /* QueryActivityEventsOperation.swift */,
 			);
-			path = Controller;
+			path = Insights;
 			sourceTree = "<group>";
 		};
-		5910782421DD26190017CA21 /* FirstViewController */ = {
+		59476CB422736E40001F7D12 /* Assessments */ = {
 			isa = PBXGroup;
 			children = (
-				5910782621DD263C0017CA21 /* First.storyboard */,
-				5910783321DD2AA20017CA21 /* Controller */,
+				59476CB622736E7F001F7D12 /* Assessment.swift */,
+				59476CB822736E7F001F7D12 /* BackPain.swift */,
+				59476CB522736E7F001F7D12 /* BloodGlucose.swift */,
+				59476CB722736E7F001F7D12 /* HealthSampleBuilder.swift */,
+				59476CB922736E7F001F7D12 /* Mood.swift */,
+				59476CBA22736E7F001F7D12 /* Weight.swift */,
 			);
-			path = FirstViewController;
+			path = Assessments;
 			sourceTree = "<group>";
 		};
-		5910782521DD26250017CA21 /* SecondViewController */ = {
+		59476CC122736E9F001F7D12 /* Activities */ = {
 			isa = PBXGroup;
 			children = (
-				5910783621DD2B170017CA21 /* Second.storyboard */,
-				5910783821DD2BC80017CA21 /* Controller */,
+				59476CC322736EF3001F7D12 /* Activity.swift */,
+				59476CC422736EF3001F7D12 /* HamstringStretch.swift */,
+				59476CC522736EF3001F7D12 /* OutdoorWalk.swift */,
+				59476CC622736EF4001F7D12 /* TakeMedication.swift */,
+				59476CC222736EA8001F7D12 /* Read Only */,
 			);
-			path = SecondViewController;
+			path = Activities;
 			sourceTree = "<group>";
 		};
-		5910782821DD28640017CA21 /* Header */ = {
+		59476CC222736EA8001F7D12 /* Read Only */ = {
 			isa = PBXGroup;
 			children = (
-				5910782921DD28A40017CA21 /* AppHeaderView.swift */,
-				5910782B21DD28AF0017CA21 /* AppHeaderView.xib */,
+				59476CCB22736EFC001F7D12 /* Caffeine.swift */,
 			);
-			path = Header;
+			path = "Read Only";
 			sourceTree = "<group>";
 		};
-		5910783321DD2AA20017CA21 /* Controller */ = {
+		59476CCD22736F18001F7D12 /* Glyph */ = {
 			isa = PBXGroup;
 			children = (
-				5910783421DD2AC40017CA21 /* FirstViewController.swift */,
+				59476CCE22736F32001F7D12 /* Glyph.swift */,
 			);
-			path = Controller;
+			path = Glyph;
 			sourceTree = "<group>";
 		};
-		5910783821DD2BC80017CA21 /* Controller */ = {
+		59476CD022736F43001F7D12 /* CareData */ = {
 			isa = PBXGroup;
 			children = (
-				5910783921DD2BD80017CA21 /* SecondViewController.swift */,
+				59476CD6227371C1001F7D12 /* CarePlanStoreManager.swift */,
+				59476CD7227371C1001F7D12 /* SampleData.swift */,
 			);
-			path = Controller;
+			path = CareData;
 			sourceTree = "<group>";
 		};
 		5949D1A0219CBBAB006D2FF0 = {
@@ -288,6 +314,7 @@
 		5949D1AB219CBBAC006D2FF0 /* Credera-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				59476CD3227370BA001F7D12 /* Credera-iOS.entitlements */,
 				598E1737219CDA47002AC3EC /* App */,
 				598E1738219CDA5E002AC3EC /* Constants */,
 				598E173E219CDA98002AC3EC /* Components */,
@@ -323,6 +350,7 @@
 		598E1738219CDA5E002AC3EC /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				59476CD122736F8E001F7D12 /* Colors.swift */,
 				5910782F21DD299F0017CA21 /* Constants.swift */,
 			);
 			path = Constants;
@@ -331,13 +359,8 @@
 		598E173B219CDA81002AC3EC /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				59476C9B22736B01001F7D12 /* MainCareKitApp */,
 				598E173F219CDB04002AC3EC /* LaunchScreen */,
-				5910781421DD1F990017CA21 /* MainSinglePageApp */,
-				5910781321DD1F7C0017CA21 /* MainTabBarApp */,
-				5910782421DD26190017CA21 /* FirstViewController */,
-				5910782521DD26250017CA21 /* SecondViewController */,
-				AFD1E227223A847E00131E4A /* NavigationIntermediateViewController */,
-				AFD1E231223AA3F600131E4A /* NavigationFinalViewController */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -353,6 +376,8 @@
 		598E173D219CDA90002AC3EC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				59476CAA22736D90001F7D12 /* NSCalendar+Dates.swift */,
+				59476CA922736D90001F7D12 /* OCKInsightItem+EmptyMessage.swift */,
 				5910781A21DD21900017CA21 /* NavigationController+Transitions.swift */,
 				5910783121DD29E00017CA21 /* UIColor+Extension.swift */,
 			);
@@ -371,6 +396,7 @@
 		598E173F219CDB04002AC3EC /* LaunchScreen */ = {
 			isa = PBXGroup;
 			children = (
+				59476C9F22736C0D001F7D12 /* CareLaunchScreen.storyboard */,
 				5949D1B8219CBBAE006D2FF0 /* LaunchScreen.storyboard */,
 			);
 			path = LaunchScreen;
@@ -379,6 +405,7 @@
 		6BFBF04996A1B3B319DFE4DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				59476CD4227370BA001F7D12 /* HealthKit.framework */,
 				9645AC57AFCE99B609B68B96 /* Pods_Credera_iOS.framework */,
 				776C2608FC32935341C444AC /* Pods_Credera_iOSTests.framework */,
 				6428362F40383B253C816DD2 /* Pods_Credera_iOSUITests.framework */,
@@ -472,40 +499,6 @@
 				AFBD0D222242EB1F00123314 /* PhotosApiImpl.swift */,
 			);
 			path = Endpoints;
-			sourceTree = "<group>";
-		};
-		AFD1E227223A847E00131E4A /* NavigationIntermediateViewController */ = {
-			isa = PBXGroup;
-			children = (
-				AFD1E229223A84C300131E4A /* NavigationIntermediate.storyboard */,
-				AFD1E228223A84A500131E4A /* Controller */,
-			);
-			path = NavigationIntermediateViewController;
-			sourceTree = "<group>";
-		};
-		AFD1E228223A84A500131E4A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				AFD1E22B223A84DF00131E4A /* NavigationIntermediateViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		AFD1E231223AA3F600131E4A /* NavigationFinalViewController */ = {
-			isa = PBXGroup;
-			children = (
-				AFD1E233223AA50A00131E4A /* NavigationFinal.storyboard */,
-				AFD1E232223AA42C00131E4A /* Controller */,
-			);
-			path = NavigationFinalViewController;
-			sourceTree = "<group>";
-		};
-		AFD1E232223AA42C00131E4A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				AFD1E235223AA53D00131E4A /* NavigationFinalViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		AFD8F72C223E070C00D9306F /* Credera-iOSTests */ = {
@@ -620,6 +613,11 @@
 				TargetAttributes = {
 					5949D1A8219CBBAC006D2FF0 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					5949D1CA219CBBAF006D2FF0 = {
 						CreatedOnToolsVersion = 10.1;
@@ -655,15 +653,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5910782021DD24AE0017CA21 /* MainTabBarApp.storyboard in Resources */,
-				AFD1E22A223A84C300131E4A /* NavigationIntermediate.storyboard in Resources */,
-				5910782721DD263C0017CA21 /* First.storyboard in Resources */,
-				5910781621DD1FC60017CA21 /* MainSinglePageApp.storyboard in Resources */,
-				AFD1E234223AA50A00131E4A /* NavigationFinal.storyboard in Resources */,
-				5910782C21DD28AF0017CA21 /* AppHeaderView.xib in Resources */,
+				59476CA122736C0D001F7D12 /* CareLaunchScreen.storyboard in Resources */,
+				59476CA222736C0D001F7D12 /* CareMain.storyboard in Resources */,
 				5949D1BA219CBBAE006D2FF0 /* LaunchScreen.storyboard in Resources */,
 				5949D1B7219CBBAE006D2FF0 /* Assets.xcassets in Resources */,
-				5910783721DD2B170017CA21 /* Second.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,15 +682,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Credera-iOSTests-checkManifestLockResult.txt",
 			);
@@ -731,15 +720,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Credera-iOS/Pods-Credera-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CareKit/CareKit.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework",
+				"${BUILT_PRODUCTS_DIR}/ResearchKit/ResearchKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CareKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Promises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResearchKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -783,8 +776,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Credera-iOSTests/Pods-Credera-iOSTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
@@ -792,8 +783,6 @@
 				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Promises.framework",
@@ -812,36 +801,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB6946C22393EB0009473AE /* HttpResponse.swift in Sources */,
+				59476CCA22736EF4001F7D12 /* TakeMedication.swift in Sources */,
+				59476CB322736DF9001F7D12 /* QueryActivityEventsOperation.swift in Sources */,
 				AFBD0D1D2242E4AA00123314 /* PhotosApi.swift in Sources */,
 				AFBD0D152241BC1900123314 /* NetworkError.swift in Sources */,
-				5910783521DD2AC40017CA21 /* FirstViewController.swift in Sources */,
 				AFD1E22E223A870700131E4A /* NavigationHelper.swift in Sources */,
 				AFBD0D262242F4F300123314 /* UsersApiRequest.swift in Sources */,
-				5910782A21DD28A40017CA21 /* AppHeaderView.swift in Sources */,
-				5910781E21DD22770017CA21 /* MainSinglePageAppViewController.swift in Sources */,
-				AFD1E236223AA53D00131E4A /* NavigationFinalViewController.swift in Sources */,
+				59476CD8227371C1001F7D12 /* CarePlanStoreManager.swift in Sources */,
+				59476CB122736DF9001F7D12 /* InsightsBuilder.swift in Sources */,
 				591823AD223B05110062ED0C /* GeoApiModel.swift in Sources */,
-				AFD1E22C223A84DF00131E4A /* NavigationIntermediateViewController.swift in Sources */,
-				5910782321DD252A0017CA21 /* MainTabBarAppViewController.swift in Sources */,
 				5910781B21DD21900017CA21 /* NavigationController+Transitions.swift in Sources */,
 				5910783021DD299F0017CA21 /* Constants.swift in Sources */,
+				59476CBF22736E7F001F7D12 /* Mood.swift in Sources */,
+				59476CC922736EF4001F7D12 /* OutdoorWalk.swift in Sources */,
+				59476CCC22736EFC001F7D12 /* Caffeine.swift in Sources */,
+				59476CC722736EF4001F7D12 /* Activity.swift in Sources */,
 				AFB69478223A912F009473AE /* ApiProviderConfig.swift in Sources */,
+				59476CCF22736F32001F7D12 /* Glyph.swift in Sources */,
+				59476CAB22736D90001F7D12 /* OCKInsightItem+EmptyMessage.swift in Sources */,
+				59476CBE22736E7F001F7D12 /* BackPain.swift in Sources */,
 				AFB694712239F19A009473AE /* UserApiImpl.swift in Sources */,
 				AFB6947E223AAA0C009473AE /* UserServiceImpl.swift in Sources */,
 				AFB69485223AB4A6009473AE /* UserApiModel.swift in Sources */,
 				AFBD0D202242E55900123314 /* PhotoApiModel.swift in Sources */,
 				AFB6946022389FB2009473AE /* RequestCaller.swift in Sources */,
+				59476CBC22736E7F001F7D12 /* Assessment.swift in Sources */,
+				59476CBD22736E7F001F7D12 /* HealthSampleBuilder.swift in Sources */,
 				AFBD0D232242EB1F00123314 /* PhotosApiImpl.swift in Sources */,
+				59476CBB22736E7F001F7D12 /* BloodGlucose.swift in Sources */,
 				5910782E21DD29410017CA21 /* XibView.swift in Sources */,
+				59476C9E22736C00001F7D12 /* RootViewController.swift in Sources */,
 				AFB6947C223AA9ED009473AE /* UserService.swift in Sources */,
+				59476CD222736F8F001F7D12 /* Colors.swift in Sources */,
 				AFBD0D122241B03400123314 /* HttpError.swift in Sources */,
 				5949D1AD219CBBAC006D2FF0 /* AppDelegate.swift in Sources */,
 				AFB694682238A4AC009473AE /* HttpRequest.swift in Sources */,
-				5910783A21DD2BD80017CA21 /* SecondViewController.swift in Sources */,
+				59476CAC22736D90001F7D12 /* NSCalendar+Dates.swift in Sources */,
 				5910783221DD29E00017CA21 /* UIColor+Extension.swift in Sources */,
 				AFB6948C223AD709009473AE /* AddressApiModel.swift in Sources */,
+				59476CC822736EF4001F7D12 /* HamstringStretch.swift in Sources */,
+				59476CB222736DF9001F7D12 /* BuildInsightsOperation.swift in Sources */,
 				AFB69482223AB37C009473AE /* UserApi.swift in Sources */,
 				AFB6948A223AD56E009473AE /* User.swift in Sources */,
+				59476CD9227371C1001F7D12 /* SampleData.swift in Sources */,
+				59476CC022736E7F001F7D12 /* Weight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1021,15 +1024,16 @@
 			buildSettings = {
 				APP_DISPLAY_NAME = "Credera iOS";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Credera-iOS/Credera-iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Q9ZL326P2;
+				DEVELOPMENT_TEAM = HPYS5PBF55;
 				INFOPLIST_FILE = "$(SRCROOT)/Credera-iOS/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.mobile.Credera-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.mobile.Credera-iOS.careKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1042,15 +1046,16 @@
 			buildSettings = {
 				APP_DISPLAY_NAME = "Credera iOS";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Credera-iOS/Credera-iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Q9ZL326P2;
+				DEVELOPMENT_TEAM = HPYS5PBF55;
 				INFOPLIST_FILE = "$(SRCROOT)/Credera-iOS/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.mobile.Credera-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.mobile.Credera-iOS.careKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1166,15 +1171,16 @@
 			buildSettings = {
 				APP_DISPLAY_NAME = "Credera iOS (QA)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_QA;
+				CODE_SIGN_ENTITLEMENTS = "Credera-iOS/Credera-iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Q9ZL326P2;
+				DEVELOPMENT_TEAM = HPYS5PBF55;
 				INFOPLIST_FILE = "$(SRCROOT)/Credera-iOS/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.mobile.Credera-iOS.QA";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.mobile.Credera-iOS.careKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1263,15 +1269,16 @@
 			buildSettings = {
 				APP_DISPLAY_NAME = "Credera iOS (QA)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_QA;
+				CODE_SIGN_ENTITLEMENTS = "Credera-iOS/Credera-iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Q9ZL326P2;
+				DEVELOPMENT_TEAM = HPYS5PBF55;
 				INFOPLIST_FILE = "$(SRCROOT)/Credera-iOS/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.mobile.Credera-iOS.QA";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.mobile.Credera-iOS.careKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
