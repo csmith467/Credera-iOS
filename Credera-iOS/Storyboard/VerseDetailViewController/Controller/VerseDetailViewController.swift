@@ -13,7 +13,7 @@ class VerseDetailViewController: UIViewController, NavigationHelper {
     public class var storyboardName: String { return "VerseDetail" }
     public class var viewControllerID: String { return "VerseDetailViewController" }
 
-    @IBOutlet weak var verseTextLabel: UILabel!
+    @IBOutlet weak var verseTextView: UITextView!
     
     var bibleVerse: BibleVerseMO?
     weak var delegate: NavigationCompletedProtocol?
@@ -24,7 +24,7 @@ class VerseDetailViewController: UIViewController, NavigationHelper {
     
     override func viewWillAppear(_ animated: Bool) {
         self.title = self.bibleVerse?.reference
-        verseTextLabel.text = self.bibleVerse?.text
+        verseTextView.text = self.bibleVerse?.text
     }
     
     public static func getInstance(bibleVerse: BibleVerseMO, delegate: NavigationCompletedProtocol) -> UIViewController {

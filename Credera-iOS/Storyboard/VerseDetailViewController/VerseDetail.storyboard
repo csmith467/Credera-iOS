@@ -23,23 +23,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verse Text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="US3-KN-hYA">
-                                <rect key="frame" x="20" y="70" width="335" height="22"/>
-                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o0B-u7-AeJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sfy-uV-yGU">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="98"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Verse Text" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wBx-Eu-d8o">
+                                                <rect key="frame" x="20" y="30" width="335" height="38"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="wBx-Eu-d8o" secondAttribute="trailing" constant="20" id="4vd-DX-i2y"/>
+                                            <constraint firstItem="wBx-Eu-d8o" firstAttribute="top" secondItem="sfy-uV-yGU" secondAttribute="top" constant="30" id="IIR-1I-VGd"/>
+                                            <constraint firstItem="wBx-Eu-d8o" firstAttribute="leading" secondItem="sfy-uV-yGU" secondAttribute="leading" constant="20" id="J6f-qK-dYq"/>
+                                            <constraint firstAttribute="bottom" secondItem="wBx-Eu-d8o" secondAttribute="bottom" constant="30" id="ORi-HC-njk"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="sfy-uV-yGU" firstAttribute="top" secondItem="o0B-u7-AeJ" secondAttribute="top" id="1hm-82-dkM"/>
+                                    <constraint firstAttribute="bottom" secondItem="sfy-uV-yGU" secondAttribute="bottom" id="8VE-po-MpR"/>
+                                    <constraint firstItem="sfy-uV-yGU" firstAttribute="width" secondItem="o0B-u7-AeJ" secondAttribute="width" id="P0t-dW-AH7"/>
+                                    <constraint firstAttribute="trailing" secondItem="sfy-uV-yGU" secondAttribute="trailing" id="ffN-DD-yYT"/>
+                                    <constraint firstItem="sfy-uV-yGU" firstAttribute="leading" secondItem="o0B-u7-AeJ" secondAttribute="leading" id="tz3-V6-atv"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="US3-KN-hYA" firstAttribute="leading" secondItem="yE3-sa-SbI" secondAttribute="leading" constant="20" id="386-fC-7Ig"/>
-                            <constraint firstItem="US3-KN-hYA" firstAttribute="top" secondItem="yE3-sa-SbI" secondAttribute="top" constant="50" id="79k-Uj-R4u"/>
-                            <constraint firstItem="yE3-sa-SbI" firstAttribute="trailing" secondItem="US3-KN-hYA" secondAttribute="trailing" constant="20" id="fhN-9w-e3S"/>
+                            <constraint firstItem="o0B-u7-AeJ" firstAttribute="leading" secondItem="yE3-sa-SbI" secondAttribute="leading" id="gu3-Sb-VbG"/>
+                            <constraint firstItem="o0B-u7-AeJ" firstAttribute="top" secondItem="SYj-q2-kes" secondAttribute="top" id="qXy-Hg-Zh5"/>
+                            <constraint firstItem="o0B-u7-AeJ" firstAttribute="bottom" secondItem="yE3-sa-SbI" secondAttribute="bottom" id="sRN-yt-yQe"/>
+                            <constraint firstItem="o0B-u7-AeJ" firstAttribute="trailing" secondItem="yE3-sa-SbI" secondAttribute="trailing" id="z05-HD-1Uy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yE3-sa-SbI"/>
                     </view>
                     <connections>
-                        <outlet property="verseTextLabel" destination="US3-KN-hYA" id="zwZ-ZU-8De"/>
+                        <outlet property="verseTextView" destination="wBx-Eu-d8o" id="SbJ-pU-hNt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BD1-oG-Hdx" userLabel="First Responder" sceneMemberID="firstResponder"/>
