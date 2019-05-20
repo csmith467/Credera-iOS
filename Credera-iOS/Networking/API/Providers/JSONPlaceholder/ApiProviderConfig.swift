@@ -9,6 +9,7 @@
 import Foundation
 
 struct ApiProviderConfig {
-    // TODO: Inject baseUrl string from some scheme related config?
     static let baseUrl: String = "https://jsonplaceholder.typicode.com"
+    static let bibleUrl: String = "https://api.scripture.api.bible/v1/bibles/06125adad2d5898a-01"
+    static let bibleApiKey: String = ""
 }

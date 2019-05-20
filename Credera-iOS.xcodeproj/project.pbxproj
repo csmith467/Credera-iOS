@@ -8,21 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		1C4D6B3DE27C746F5B67A025 /* Pods_Credera_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6428362F40383B253C816DD2 /* Pods_Credera_iOSUITests.framework */; };
+		4B296B0A2292EAEB004F983E /* VerseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B296B092292EAEB004F983E /* VerseDTO.swift */; };
+		4B2FB08E228C5C680060BE72 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB08D228C5C680060BE72 /* Book.swift */; };
+		4B2FB093228C5FF10060BE72 /* BibleApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB092228C5FF10060BE72 /* BibleApiRequest.swift */; };
+		4B2FB095228C610B0060BE72 /* BookApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB094228C610B0060BE72 /* BookApiModel.swift */; };
+		4B2FB097228C62640060BE72 /* BibleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB096228C62640060BE72 /* BibleApi.swift */; };
+		4B2FB099228C62840060BE72 /* BibleApiImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB098228C62840060BE72 /* BibleApiImpl.swift */; };
+		4B2FB09B228C64B80060BE72 /* BibleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB09A228C64B80060BE72 /* BibleService.swift */; };
+		4B2FB09D228C64EC0060BE72 /* BibleServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB09C228C64EC0060BE72 /* BibleServiceImpl.swift */; };
+		4B2FB09F228C6D130060BE72 /* BooksApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB09E228C6D130060BE72 /* BooksApiModel.swift */; };
+		4B2FB0A3228C81D00060BE72 /* ChaptersApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB0A2228C81D00060BE72 /* ChaptersApiModel.swift */; };
+		4B2FB0A5228C81DC0060BE72 /* ChapterApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB0A4228C81DC0060BE72 /* ChapterApiModel.swift */; };
+		4B2FB0A8228C872E0060BE72 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB0A7228C872E0060BE72 /* BookCollectionViewCell.swift */; };
+		4B2FB0AA228C91990060BE72 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB0A9228C91990060BE72 /* Chapter.swift */; };
+		4B2FB0AD228C98CD0060BE72 /* ChapterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB0AC228C98CD0060BE72 /* ChapterCollectionViewCell.swift */; };
+		4B2FB0B2228CADC20060BE72 /* Verse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FB0B1228CADC20060BE72 /* Verse.storyboard */; };
+		4B2FB0B4228CAE130060BE72 /* VerseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB0B3228CAE130060BE72 /* VerseViewController.swift */; };
+		4B2FB0B6228CAE360060BE72 /* VerseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB0B5228CAE360060BE72 /* VerseCollectionViewCell.swift */; };
+		4B2FB0B8228CB0320060BE72 /* Verse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB0B7228CB0320060BE72 /* Verse.swift */; };
+		4B2FB0BA228CB2860060BE72 /* VersesApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB0B9228CB2860060BE72 /* VersesApiModel.swift */; };
+		4B2FB0BC228CB2910060BE72 /* VerseApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB0BB228CB2910060BE72 /* VerseApiModel.swift */; };
+		4B2FB0BE228CC1430060BE72 /* VerseDataApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB0BD228CC1430060BE72 /* VerseDataApiModel.swift */; };
+		4B2FB0C0228CC1760060BE72 /* VerseObjectApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FB0BF228CC1760060BE72 /* VerseObjectApiModel.swift */; };
+		4B2FB0F0228DCBD90060BE72 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FB0E6228DCBD80060BE72 /* Lato-Italic.ttf */; };
+		4B2FB0F1228DCBD90060BE72 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FB0E7228DCBD80060BE72 /* Lato-LightItalic.ttf */; };
+		4B2FB0F2228DCBD90060BE72 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FB0E8228DCBD80060BE72 /* Lato-Regular.ttf */; };
+		4B2FB0F3228DCBD90060BE72 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FB0E9228DCBD80060BE72 /* Lato-BlackItalic.ttf */; };
+		4B2FB0F4228DCBD90060BE72 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FB0EA228DCBD80060BE72 /* Lato-Light.ttf */; };
+		4B2FB0F5228DCBD90060BE72 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FB0EB228DCBD80060BE72 /* Lato-HairlineItalic.ttf */; };
+		4B2FB0F6228DCBD90060BE72 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FB0EC228DCBD90060BE72 /* Lato-Black.ttf */; };
+		4B2FB0F7228DCBD90060BE72 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FB0ED228DCBD90060BE72 /* Lato-Bold.ttf */; };
+		4B2FB0F8228DCBD90060BE72 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FB0EE228DCBD90060BE72 /* Lato-BoldItalic.ttf */; };
+		4B2FB0F9228DCBD90060BE72 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FB0EF228DCBD90060BE72 /* Lato-Hairline.ttf */; };
+		4B59BD08228EF7E8003F5997 /* VerseList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B59BD07228EF7E8003F5997 /* VerseList.storyboard */; };
+		4B59BD0B228EF828003F5997 /* VerseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59BD0A228EF828003F5997 /* VerseListViewController.swift */; };
+		4B59BD0E228EFD36003F5997 /* VerseListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59BD0D228EFD36003F5997 /* VerseListTableViewCell.swift */; };
+		4B59BD32228F1060003F5997 /* MyVerses.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B59BD30228F1060003F5997 /* MyVerses.xcdatamodeld */; };
+		4B59BD37228F2C82003F5997 /* VerseDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B59BD36228F2C82003F5997 /* VerseDetail.storyboard */; };
+		4B59BD3A228F2CA0003F5997 /* VerseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59BD39228F2CA0003F5997 /* VerseDetailViewController.swift */; };
+		4B59BD3E228F35E7003F5997 /* VerseResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59BD3D228F35E7003F5997 /* VerseResultViewController.swift */; };
+		4B59BD40228F35F2003F5997 /* VerseResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B59BD3F228F35F2003F5997 /* VerseResult.storyboard */; };
+		4B59BD42228F4ED3003F5997 /* VerseContentApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59BD41228F4ED3003F5997 /* VerseContentApiModel.swift */; };
+		4B59BD44228F4F16003F5997 /* VerseItemsApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B59BD43228F4F16003F5997 /* VerseItemsApiModel.swift */; };
 		51EBCB0094D9A84B9476529F /* Pods_Credera_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776C2608FC32935341C444AC /* Pods_Credera_iOSTests.framework */; };
-		5910781621DD1FC60017CA21 /* MainSinglePageApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5910781521DD1FC60017CA21 /* MainSinglePageApp.storyboard */; };
 		5910781B21DD21900017CA21 /* NavigationController+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910781A21DD21900017CA21 /* NavigationController+Transitions.swift */; };
-		5910781E21DD22770017CA21 /* MainSinglePageAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910781D21DD22770017CA21 /* MainSinglePageAppViewController.swift */; };
 		5910782021DD24AE0017CA21 /* MainTabBarApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5910781F21DD24AE0017CA21 /* MainTabBarApp.storyboard */; };
 		5910782321DD252A0017CA21 /* MainTabBarAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910782221DD252A0017CA21 /* MainTabBarAppViewController.swift */; };
-		5910782721DD263C0017CA21 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5910782621DD263C0017CA21 /* First.storyboard */; };
+		5910782721DD263C0017CA21 /* Book.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5910782621DD263C0017CA21 /* Book.storyboard */; };
 		5910782A21DD28A40017CA21 /* AppHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910782921DD28A40017CA21 /* AppHeaderView.swift */; };
 		5910782C21DD28AF0017CA21 /* AppHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5910782B21DD28AF0017CA21 /* AppHeaderView.xib */; };
 		5910782E21DD29410017CA21 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910782D21DD29410017CA21 /* XibView.swift */; };
 		5910783021DD299F0017CA21 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910782F21DD299F0017CA21 /* Constants.swift */; };
 		5910783221DD29E00017CA21 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910783121DD29E00017CA21 /* UIColor+Extension.swift */; };
-		5910783521DD2AC40017CA21 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910783421DD2AC40017CA21 /* FirstViewController.swift */; };
-		5910783721DD2B170017CA21 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5910783621DD2B170017CA21 /* Second.storyboard */; };
-		5910783A21DD2BD80017CA21 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910783921DD2BD80017CA21 /* SecondViewController.swift */; };
+		5910783521DD2AC40017CA21 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910783421DD2AC40017CA21 /* BookViewController.swift */; };
 		591823AD223B05110062ED0C /* GeoApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591823AC223B05110062ED0C /* GeoApiModel.swift */; };
 		5949D1AD219CBBAC006D2FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5949D1AC219CBBAC006D2FF0 /* AppDelegate.swift */; };
 		5949D1B7219CBBAE006D2FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5949D1B6219CBBAE006D2FF0 /* Assets.xcassets */; };
@@ -53,11 +91,9 @@
 		AFBD0D262242F4F300123314 /* UsersApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD0D252242F4F300123314 /* UsersApiRequest.swift */; };
 		AFBD0D272242F4F300123314 /* UsersApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD0D252242F4F300123314 /* UsersApiRequest.swift */; };
 		AFBD0D282242F7E100123314 /* ApiProviderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB69477223A912F009473AE /* ApiProviderConfig.swift */; };
-		AFD1E22A223A84C300131E4A /* NavigationIntermediate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1E229223A84C300131E4A /* NavigationIntermediate.storyboard */; };
-		AFD1E22C223A84DF00131E4A /* NavigationIntermediateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1E22B223A84DF00131E4A /* NavigationIntermediateViewController.swift */; };
+		AFD1E22A223A84C300131E4A /* Chapter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1E229223A84C300131E4A /* Chapter.storyboard */; };
+		AFD1E22C223A84DF00131E4A /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1E22B223A84DF00131E4A /* ChapterViewController.swift */; };
 		AFD1E22E223A870700131E4A /* NavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1E22D223A870700131E4A /* NavigationHelper.swift */; };
-		AFD1E234223AA50A00131E4A /* NavigationFinal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1E233223AA50A00131E4A /* NavigationFinal.storyboard */; };
-		AFD1E236223AA53D00131E4A /* NavigationFinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1E235223AA53D00131E4A /* NavigationFinalViewController.swift */; };
 		AFD8F72E223E070C00D9306F /* Credera_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD8F72D223E070C00D9306F /* Credera_iOSTests.swift */; };
 		AFD8F736223E082400D9306F /* RequestCallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD8F735223E082400D9306F /* RequestCallerTests.swift */; };
 		AFD8F73A223E0A1C00D9306F /* RequestCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB6945F22389FB2009473AE /* RequestCaller.swift */; };
@@ -87,20 +123,58 @@
 		14E5DCA8444542B540C0F562 /* Pods-Credera-iOSTests.debug_qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credera-iOSTests.debug_qa.xcconfig"; path = "Pods/Target Support Files/Pods-Credera-iOSTests/Pods-Credera-iOSTests.debug_qa.xcconfig"; sourceTree = "<group>"; };
 		175E6B0EE4A1BBE1ECB067D8 /* Pods-Credera-iOS.debug_qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credera-iOS.debug_qa.xcconfig"; path = "Pods/Target Support Files/Pods-Credera-iOS/Pods-Credera-iOS.debug_qa.xcconfig"; sourceTree = "<group>"; };
 		2C09A73AF9A76DA74B9904E1 /* Pods-Credera-iOSUITests.debug_qa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credera-iOSUITests.debug_qa.xcconfig"; path = "Pods/Target Support Files/Pods-Credera-iOSUITests/Pods-Credera-iOSUITests.debug_qa.xcconfig"; sourceTree = "<group>"; };
-		5910781521DD1FC60017CA21 /* MainSinglePageApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainSinglePageApp.storyboard; sourceTree = "<group>"; };
+		4B296B092292EAEB004F983E /* VerseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseDTO.swift; sourceTree = "<group>"; };
+		4B2FB08D228C5C680060BE72 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		4B2FB092228C5FF10060BE72 /* BibleApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleApiRequest.swift; sourceTree = "<group>"; };
+		4B2FB094228C610B0060BE72 /* BookApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookApiModel.swift; sourceTree = "<group>"; };
+		4B2FB096228C62640060BE72 /* BibleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleApi.swift; sourceTree = "<group>"; };
+		4B2FB098228C62840060BE72 /* BibleApiImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleApiImpl.swift; sourceTree = "<group>"; };
+		4B2FB09A228C64B80060BE72 /* BibleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleService.swift; sourceTree = "<group>"; };
+		4B2FB09C228C64EC0060BE72 /* BibleServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleServiceImpl.swift; sourceTree = "<group>"; };
+		4B2FB09E228C6D130060BE72 /* BooksApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksApiModel.swift; sourceTree = "<group>"; };
+		4B2FB0A2228C81D00060BE72 /* ChaptersApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersApiModel.swift; sourceTree = "<group>"; };
+		4B2FB0A4228C81DC0060BE72 /* ChapterApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterApiModel.swift; sourceTree = "<group>"; };
+		4B2FB0A7228C872E0060BE72 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B2FB0A9228C91990060BE72 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		4B2FB0AC228C98CD0060BE72 /* ChapterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B2FB0B1228CADC20060BE72 /* Verse.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Verse.storyboard; sourceTree = "<group>"; };
+		4B2FB0B3228CAE130060BE72 /* VerseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseViewController.swift; sourceTree = "<group>"; };
+		4B2FB0B5228CAE360060BE72 /* VerseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B2FB0B7228CB0320060BE72 /* Verse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verse.swift; sourceTree = "<group>"; };
+		4B2FB0B9228CB2860060BE72 /* VersesApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersesApiModel.swift; sourceTree = "<group>"; };
+		4B2FB0BB228CB2910060BE72 /* VerseApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseApiModel.swift; sourceTree = "<group>"; };
+		4B2FB0BD228CC1430060BE72 /* VerseDataApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseDataApiModel.swift; sourceTree = "<group>"; };
+		4B2FB0BF228CC1760060BE72 /* VerseObjectApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseObjectApiModel.swift; sourceTree = "<group>"; };
+		4B2FB0E6228DCBD80060BE72 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		4B2FB0E7228DCBD80060BE72 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		4B2FB0E8228DCBD80060BE72 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		4B2FB0E9228DCBD80060BE72 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4B2FB0EA228DCBD80060BE72 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		4B2FB0EB228DCBD80060BE72 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		4B2FB0EC228DCBD90060BE72 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		4B2FB0ED228DCBD90060BE72 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		4B2FB0EE228DCBD90060BE72 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4B2FB0EF228DCBD90060BE72 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		4B59BD07228EF7E8003F5997 /* VerseList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VerseList.storyboard; sourceTree = "<group>"; };
+		4B59BD0A228EF828003F5997 /* VerseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseListViewController.swift; sourceTree = "<group>"; };
+		4B59BD0D228EFD36003F5997 /* VerseListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseListTableViewCell.swift; sourceTree = "<group>"; };
+		4B59BD31228F1060003F5997 /* MyVerses.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyVerses.xcdatamodel; sourceTree = "<group>"; };
+		4B59BD36228F2C82003F5997 /* VerseDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VerseDetail.storyboard; sourceTree = "<group>"; };
+		4B59BD39228F2CA0003F5997 /* VerseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseDetailViewController.swift; sourceTree = "<group>"; };
+		4B59BD3D228F35E7003F5997 /* VerseResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseResultViewController.swift; sourceTree = "<group>"; };
+		4B59BD3F228F35F2003F5997 /* VerseResult.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VerseResult.storyboard; sourceTree = "<group>"; };
+		4B59BD41228F4ED3003F5997 /* VerseContentApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseContentApiModel.swift; sourceTree = "<group>"; };
+		4B59BD43228F4F16003F5997 /* VerseItemsApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseItemsApiModel.swift; sourceTree = "<group>"; };
 		5910781A21DD21900017CA21 /* NavigationController+Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationController+Transitions.swift"; sourceTree = "<group>"; };
-		5910781D21DD22770017CA21 /* MainSinglePageAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSinglePageAppViewController.swift; sourceTree = "<group>"; };
 		5910781F21DD24AE0017CA21 /* MainTabBarApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabBarApp.storyboard; sourceTree = "<group>"; };
 		5910782221DD252A0017CA21 /* MainTabBarAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarAppViewController.swift; sourceTree = "<group>"; };
-		5910782621DD263C0017CA21 /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		5910782621DD263C0017CA21 /* Book.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Book.storyboard; sourceTree = "<group>"; };
 		5910782921DD28A40017CA21 /* AppHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeaderView.swift; sourceTree = "<group>"; };
 		5910782B21DD28AF0017CA21 /* AppHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppHeaderView.xib; sourceTree = "<group>"; };
 		5910782D21DD29410017CA21 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 		5910782F21DD299F0017CA21 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5910783121DD29E00017CA21 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		5910783421DD2AC40017CA21 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		5910783621DD2B170017CA21 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
-		5910783921DD2BD80017CA21 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5910783421DD2AC40017CA21 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		591823AC223B05110062ED0C /* GeoApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoApiModel.swift; sourceTree = "<group>"; };
 		5949D1A9219CBBAC006D2FF0 /* Credera-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credera-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5949D1AC219CBBAC006D2FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,11 +209,9 @@
 		AFBD0D1F2242E55900123314 /* PhotoApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoApiModel.swift; sourceTree = "<group>"; };
 		AFBD0D222242EB1F00123314 /* PhotosApiImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosApiImpl.swift; sourceTree = "<group>"; };
 		AFBD0D252242F4F300123314 /* UsersApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersApiRequest.swift; sourceTree = "<group>"; };
-		AFD1E229223A84C300131E4A /* NavigationIntermediate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigationIntermediate.storyboard; sourceTree = "<group>"; };
-		AFD1E22B223A84DF00131E4A /* NavigationIntermediateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationIntermediateViewController.swift; sourceTree = "<group>"; };
+		AFD1E229223A84C300131E4A /* Chapter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chapter.storyboard; sourceTree = "<group>"; };
+		AFD1E22B223A84DF00131E4A /* ChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
 		AFD1E22D223A870700131E4A /* NavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHelper.swift; sourceTree = "<group>"; };
-		AFD1E233223AA50A00131E4A /* NavigationFinal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigationFinal.storyboard; sourceTree = "<group>"; };
-		AFD1E235223AA53D00131E4A /* NavigationFinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationFinalViewController.swift; sourceTree = "<group>"; };
 		AFD8F72B223E070C00D9306F /* Credera-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Credera-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD8F72D223E070C00D9306F /* Credera_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credera_iOSTests.swift; sourceTree = "<group>"; };
 		AFD8F72F223E070C00D9306F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -178,6 +250,161 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B2FB08F228C5F3D0060BE72 /* BibleAPI */ = {
+			isa = PBXGroup;
+			children = (
+				4B2FB091228C5F510060BE72 /* Models */,
+				4B2FB090228C5F4B0060BE72 /* Endpoints */,
+			);
+			path = BibleAPI;
+			sourceTree = "<group>";
+		};
+		4B2FB090228C5F4B0060BE72 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				4B2FB096228C62640060BE72 /* BibleApi.swift */,
+				4B2FB098228C62840060BE72 /* BibleApiImpl.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		4B2FB091228C5F510060BE72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B2FB092228C5FF10060BE72 /* BibleApiRequest.swift */,
+				4B2FB094228C610B0060BE72 /* BookApiModel.swift */,
+				4B2FB09E228C6D130060BE72 /* BooksApiModel.swift */,
+				4B2FB0A2228C81D00060BE72 /* ChaptersApiModel.swift */,
+				4B2FB0A4228C81DC0060BE72 /* ChapterApiModel.swift */,
+				4B2FB0B9228CB2860060BE72 /* VersesApiModel.swift */,
+				4B2FB0BB228CB2910060BE72 /* VerseApiModel.swift */,
+				4B2FB0BD228CC1430060BE72 /* VerseDataApiModel.swift */,
+				4B2FB0BF228CC1760060BE72 /* VerseObjectApiModel.swift */,
+				4B59BD41228F4ED3003F5997 /* VerseContentApiModel.swift */,
+				4B59BD43228F4F16003F5997 /* VerseItemsApiModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B2FB0A6228C87000060BE72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B2FB0A7228C872E0060BE72 /* BookCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B2FB0AB228C98B80060BE72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B2FB0AC228C98CD0060BE72 /* ChapterCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B2FB0AE228CAD8D0060BE72 /* VerseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B2FB0B0228CADB10060BE72 /* Controller */,
+				4B2FB0AF228CADA60060BE72 /* View */,
+				4B2FB0B1228CADC20060BE72 /* Verse.storyboard */,
+			);
+			path = VerseViewController;
+			sourceTree = "<group>";
+		};
+		4B2FB0AF228CADA60060BE72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B2FB0B5228CAE360060BE72 /* VerseCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B2FB0B0228CADB10060BE72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B2FB0B3228CAE130060BE72 /* VerseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4B2FB0CD228DCAB10060BE72 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4B2FB0EC228DCBD90060BE72 /* Lato-Black.ttf */,
+				4B2FB0E9228DCBD80060BE72 /* Lato-BlackItalic.ttf */,
+				4B2FB0ED228DCBD90060BE72 /* Lato-Bold.ttf */,
+				4B2FB0EE228DCBD90060BE72 /* Lato-BoldItalic.ttf */,
+				4B2FB0EF228DCBD90060BE72 /* Lato-Hairline.ttf */,
+				4B2FB0EB228DCBD80060BE72 /* Lato-HairlineItalic.ttf */,
+				4B2FB0E6228DCBD80060BE72 /* Lato-Italic.ttf */,
+				4B2FB0EA228DCBD80060BE72 /* Lato-Light.ttf */,
+				4B2FB0E7228DCBD80060BE72 /* Lato-LightItalic.ttf */,
+				4B2FB0E8228DCBD80060BE72 /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4B59BD06228EF7C9003F5997 /* VerseListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B59BD0C228EFD1F003F5997 /* View */,
+				4B59BD09228EF80C003F5997 /* Controller */,
+				4B59BD07228EF7E8003F5997 /* VerseList.storyboard */,
+			);
+			path = VerseListViewController;
+			sourceTree = "<group>";
+		};
+		4B59BD09228EF80C003F5997 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B59BD0A228EF828003F5997 /* VerseListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4B59BD0C228EFD1F003F5997 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B59BD0D228EFD36003F5997 /* VerseListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B59BD35228F2C67003F5997 /* VerseDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B59BD38228F2C86003F5997 /* Controller */,
+				4B59BD36228F2C82003F5997 /* VerseDetail.storyboard */,
+			);
+			path = VerseDetailViewController;
+			sourceTree = "<group>";
+		};
+		4B59BD38228F2C86003F5997 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B59BD39228F2CA0003F5997 /* VerseDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4B59BD3B228F35C6003F5997 /* VerseResultViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B59BD3C228F35D7003F5997 /* Controller */,
+				4B59BD3F228F35F2003F5997 /* VerseResult.storyboard */,
+			);
+			path = VerseResultViewController;
+			sourceTree = "<group>";
+		};
+		4B59BD3C228F35D7003F5997 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B59BD3D228F35E7003F5997 /* VerseResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		5910781321DD1F7C0017CA21 /* MainTabBarApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,28 +415,11 @@
 			path = MainTabBarApp;
 			sourceTree = "<group>";
 		};
-		5910781421DD1F990017CA21 /* MainSinglePageApp */ = {
-			isa = PBXGroup;
-			children = (
-				5910781521DD1FC60017CA21 /* MainSinglePageApp.storyboard */,
-				5910781C21DD22590017CA21 /* Controller */,
-			);
-			path = MainSinglePageApp;
-			sourceTree = "<group>";
-		};
 		5910781721DD209C0017CA21 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Managers;
-			sourceTree = "<group>";
-		};
-		5910781C21DD22590017CA21 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				5910781D21DD22770017CA21 /* MainSinglePageAppViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		5910782121DD25150017CA21 /* Controller */ = {
@@ -220,22 +430,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		5910782421DD26190017CA21 /* FirstViewController */ = {
+		5910782421DD26190017CA21 /* BookViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5910782621DD263C0017CA21 /* First.storyboard */,
+				4B2FB0A6228C87000060BE72 /* View */,
+				5910782621DD263C0017CA21 /* Book.storyboard */,
 				5910783321DD2AA20017CA21 /* Controller */,
 			);
-			path = FirstViewController;
-			sourceTree = "<group>";
-		};
-		5910782521DD26250017CA21 /* SecondViewController */ = {
-			isa = PBXGroup;
-			children = (
-				5910783621DD2B170017CA21 /* Second.storyboard */,
-				5910783821DD2BC80017CA21 /* Controller */,
-			);
-			path = SecondViewController;
+			path = BookViewController;
 			sourceTree = "<group>";
 		};
 		5910782821DD28640017CA21 /* Header */ = {
@@ -250,15 +452,7 @@
 		5910783321DD2AA20017CA21 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5910783421DD2AC40017CA21 /* FirstViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		5910783821DD2BC80017CA21 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				5910783921DD2BD80017CA21 /* SecondViewController.swift */,
+				5910783421DD2AC40017CA21 /* BookViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -314,6 +508,7 @@
 		598E1737219CDA47002AC3EC /* App */ = {
 			isa = PBXGroup;
 			children = (
+				4B59BD30228F1060003F5997 /* MyVerses.xcdatamodeld */,
 				5949D1BB219CBBAE006D2FF0 /* Info.plist */,
 				5949D1AC219CBBAC006D2FF0 /* AppDelegate.swift */,
 			);
@@ -331,13 +526,14 @@
 		598E173B219CDA81002AC3EC /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				4B59BD3B228F35C6003F5997 /* VerseResultViewController */,
+				4B59BD35228F2C67003F5997 /* VerseDetailViewController */,
+				4B59BD06228EF7C9003F5997 /* VerseListViewController */,
+				4B2FB0AE228CAD8D0060BE72 /* VerseViewController */,
 				598E173F219CDB04002AC3EC /* LaunchScreen */,
-				5910781421DD1F990017CA21 /* MainSinglePageApp */,
 				5910781321DD1F7C0017CA21 /* MainTabBarApp */,
-				5910782421DD26190017CA21 /* FirstViewController */,
-				5910782521DD26250017CA21 /* SecondViewController */,
-				AFD1E227223A847E00131E4A /* NavigationIntermediateViewController */,
-				AFD1E231223AA3F600131E4A /* NavigationFinalViewController */,
+				5910782421DD26190017CA21 /* BookViewController */,
+				AFD1E227223A847E00131E4A /* ChapterViewController */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -345,6 +541,7 @@
 		598E173C219CDA88002AC3EC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4B2FB0CD228DCAB10060BE72 /* Fonts */,
 				5949D1B6219CBBAE006D2FF0 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -401,6 +598,8 @@
 				AFB6947F223AAA3A009473AE /* Models */,
 				AFB6947B223AA9ED009473AE /* UserService.swift */,
 				AFB6947D223AAA0C009473AE /* UserServiceImpl.swift */,
+				4B2FB09A228C64B80060BE72 /* BibleService.swift */,
+				4B2FB09C228C64EC0060BE72 /* BibleServiceImpl.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -428,6 +627,7 @@
 		AFB6946D2239D1E7009473AE /* Providers */ = {
 			isa = PBXGroup;
 			children = (
+				4B2FB08F228C5F3D0060BE72 /* BibleAPI */,
 				AFB6946E2239D1F5009473AE /* JSONPlaceholder */,
 			);
 			path = Providers;
@@ -459,6 +659,10 @@
 			isa = PBXGroup;
 			children = (
 				AFB69489223AD56E009473AE /* User.swift */,
+				4B2FB08D228C5C680060BE72 /* Book.swift */,
+				4B2FB0A9228C91990060BE72 /* Chapter.swift */,
+				4B2FB0B7228CB0320060BE72 /* Verse.swift */,
+				4B296B092292EAEB004F983E /* VerseDTO.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -474,36 +678,20 @@
 			path = Endpoints;
 			sourceTree = "<group>";
 		};
-		AFD1E227223A847E00131E4A /* NavigationIntermediateViewController */ = {
+		AFD1E227223A847E00131E4A /* ChapterViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AFD1E229223A84C300131E4A /* NavigationIntermediate.storyboard */,
+				4B2FB0AB228C98B80060BE72 /* View */,
+				AFD1E229223A84C300131E4A /* Chapter.storyboard */,
 				AFD1E228223A84A500131E4A /* Controller */,
 			);
-			path = NavigationIntermediateViewController;
+			path = ChapterViewController;
 			sourceTree = "<group>";
 		};
 		AFD1E228223A84A500131E4A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AFD1E22B223A84DF00131E4A /* NavigationIntermediateViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		AFD1E231223AA3F600131E4A /* NavigationFinalViewController */ = {
-			isa = PBXGroup;
-			children = (
-				AFD1E233223AA50A00131E4A /* NavigationFinal.storyboard */,
-				AFD1E232223AA42C00131E4A /* Controller */,
-			);
-			path = NavigationFinalViewController;
-			sourceTree = "<group>";
-		};
-		AFD1E232223AA42C00131E4A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				AFD1E235223AA53D00131E4A /* NavigationFinalViewController.swift */,
+				AFD1E22B223A84DF00131E4A /* ChapterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -655,15 +843,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B59BD37228F2C82003F5997 /* VerseDetail.storyboard in Resources */,
+				4B2FB0F9228DCBD90060BE72 /* Lato-Hairline.ttf in Resources */,
+				4B2FB0F8228DCBD90060BE72 /* Lato-BoldItalic.ttf in Resources */,
+				4B2FB0F3228DCBD90060BE72 /* Lato-BlackItalic.ttf in Resources */,
 				5910782021DD24AE0017CA21 /* MainTabBarApp.storyboard in Resources */,
-				AFD1E22A223A84C300131E4A /* NavigationIntermediate.storyboard in Resources */,
-				5910782721DD263C0017CA21 /* First.storyboard in Resources */,
-				5910781621DD1FC60017CA21 /* MainSinglePageApp.storyboard in Resources */,
-				AFD1E234223AA50A00131E4A /* NavigationFinal.storyboard in Resources */,
+				4B59BD40228F35F2003F5997 /* VerseResult.storyboard in Resources */,
+				AFD1E22A223A84C300131E4A /* Chapter.storyboard in Resources */,
+				5910782721DD263C0017CA21 /* Book.storyboard in Resources */,
 				5910782C21DD28AF0017CA21 /* AppHeaderView.xib in Resources */,
 				5949D1BA219CBBAE006D2FF0 /* LaunchScreen.storyboard in Resources */,
+				4B2FB0F1228DCBD90060BE72 /* Lato-LightItalic.ttf in Resources */,
+				4B59BD08228EF7E8003F5997 /* VerseList.storyboard in Resources */,
 				5949D1B7219CBBAE006D2FF0 /* Assets.xcassets in Resources */,
-				5910783721DD2B170017CA21 /* Second.storyboard in Resources */,
+				4B2FB0B2228CADC20060BE72 /* Verse.storyboard in Resources */,
+				4B2FB0F5228DCBD90060BE72 /* Lato-HairlineItalic.ttf in Resources */,
+				4B2FB0F7228DCBD90060BE72 /* Lato-Bold.ttf in Resources */,
+				4B2FB0F2228DCBD90060BE72 /* Lato-Regular.ttf in Resources */,
+				4B2FB0F0228DCBD90060BE72 /* Lato-Italic.ttf in Resources */,
+				4B2FB0F6228DCBD90060BE72 /* Lato-Black.ttf in Resources */,
+				4B2FB0F4228DCBD90060BE72 /* Lato-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,7 +929,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Credera-iOS/Pods-Credera-iOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Credera-iOS/Pods-Credera-iOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework",
@@ -743,7 +942,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Credera-iOS/Pods-Credera-iOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Credera-iOS/Pods-Credera-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A1A5965FA2FB6D51133D796E /* [CP] Check Pods Manifest.lock */ = {
@@ -786,7 +985,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Credera-iOSTests/Pods-Credera-iOSTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Credera-iOSTests/Pods-Credera-iOSTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework",
 				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
@@ -801,7 +1000,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Credera-iOSTests/Pods-Credera-iOSTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Credera-iOSTests/Pods-Credera-iOSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -811,22 +1010,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B59BD44228F4F16003F5997 /* VerseItemsApiModel.swift in Sources */,
 				AFB6946C22393EB0009473AE /* HttpResponse.swift in Sources */,
+				4B2FB09B228C64B80060BE72 /* BibleService.swift in Sources */,
+				4B2FB0BA228CB2860060BE72 /* VersesApiModel.swift in Sources */,
+				4B2FB0C0228CC1760060BE72 /* VerseObjectApiModel.swift in Sources */,
 				AFBD0D1D2242E4AA00123314 /* PhotosApi.swift in Sources */,
 				AFBD0D152241BC1900123314 /* NetworkError.swift in Sources */,
-				5910783521DD2AC40017CA21 /* FirstViewController.swift in Sources */,
+				4B2FB093228C5FF10060BE72 /* BibleApiRequest.swift in Sources */,
+				5910783521DD2AC40017CA21 /* BookViewController.swift in Sources */,
 				AFD1E22E223A870700131E4A /* NavigationHelper.swift in Sources */,
 				AFBD0D262242F4F300123314 /* UsersApiRequest.swift in Sources */,
 				5910782A21DD28A40017CA21 /* AppHeaderView.swift in Sources */,
-				5910781E21DD22770017CA21 /* MainSinglePageAppViewController.swift in Sources */,
-				AFD1E236223AA53D00131E4A /* NavigationFinalViewController.swift in Sources */,
+				4B2FB095228C610B0060BE72 /* BookApiModel.swift in Sources */,
+				4B2FB09F228C6D130060BE72 /* BooksApiModel.swift in Sources */,
+				4B2FB0BC228CB2910060BE72 /* VerseApiModel.swift in Sources */,
+				4B2FB097228C62640060BE72 /* BibleApi.swift in Sources */,
+				4B59BD0E228EFD36003F5997 /* VerseListTableViewCell.swift in Sources */,
+				4B59BD3E228F35E7003F5997 /* VerseResultViewController.swift in Sources */,
+				4B2FB09D228C64EC0060BE72 /* BibleServiceImpl.swift in Sources */,
+				4B2FB099228C62840060BE72 /* BibleApiImpl.swift in Sources */,
+				4B2FB0AA228C91990060BE72 /* Chapter.swift in Sources */,
 				591823AD223B05110062ED0C /* GeoApiModel.swift in Sources */,
-				AFD1E22C223A84DF00131E4A /* NavigationIntermediateViewController.swift in Sources */,
+				AFD1E22C223A84DF00131E4A /* ChapterViewController.swift in Sources */,
 				5910782321DD252A0017CA21 /* MainTabBarAppViewController.swift in Sources */,
+				4B2FB0BE228CC1430060BE72 /* VerseDataApiModel.swift in Sources */,
+				4B2FB0AD228C98CD0060BE72 /* ChapterCollectionViewCell.swift in Sources */,
 				5910781B21DD21900017CA21 /* NavigationController+Transitions.swift in Sources */,
+				4B2FB0B4228CAE130060BE72 /* VerseViewController.swift in Sources */,
 				5910783021DD299F0017CA21 /* Constants.swift in Sources */,
 				AFB69478223A912F009473AE /* ApiProviderConfig.swift in Sources */,
+				4B296B0A2292EAEB004F983E /* VerseDTO.swift in Sources */,
 				AFB694712239F19A009473AE /* UserApiImpl.swift in Sources */,
+				4B2FB08E228C5C680060BE72 /* Book.swift in Sources */,
 				AFB6947E223AAA0C009473AE /* UserServiceImpl.swift in Sources */,
 				AFB69485223AB4A6009473AE /* UserApiModel.swift in Sources */,
 				AFBD0D202242E55900123314 /* PhotoApiModel.swift in Sources */,
@@ -834,13 +1050,21 @@
 				AFBD0D232242EB1F00123314 /* PhotosApiImpl.swift in Sources */,
 				5910782E21DD29410017CA21 /* XibView.swift in Sources */,
 				AFB6947C223AA9ED009473AE /* UserService.swift in Sources */,
+				4B2FB0B8228CB0320060BE72 /* Verse.swift in Sources */,
 				AFBD0D122241B03400123314 /* HttpError.swift in Sources */,
 				5949D1AD219CBBAC006D2FF0 /* AppDelegate.swift in Sources */,
 				AFB694682238A4AC009473AE /* HttpRequest.swift in Sources */,
-				5910783A21DD2BD80017CA21 /* SecondViewController.swift in Sources */,
+				4B59BD32228F1060003F5997 /* MyVerses.xcdatamodeld in Sources */,
 				5910783221DD29E00017CA21 /* UIColor+Extension.swift in Sources */,
+				4B2FB0A5228C81DC0060BE72 /* ChapterApiModel.swift in Sources */,
+				4B59BD0B228EF828003F5997 /* VerseListViewController.swift in Sources */,
 				AFB6948C223AD709009473AE /* AddressApiModel.swift in Sources */,
+				4B59BD3A228F2CA0003F5997 /* VerseDetailViewController.swift in Sources */,
 				AFB69482223AB37C009473AE /* UserApi.swift in Sources */,
+				4B59BD42228F4ED3003F5997 /* VerseContentApiModel.swift in Sources */,
+				4B2FB0B6228CAE360060BE72 /* VerseCollectionViewCell.swift in Sources */,
+				4B2FB0A8228C872E0060BE72 /* BookCollectionViewCell.swift in Sources */,
+				4B2FB0A3228C81D00060BE72 /* ChaptersApiModel.swift in Sources */,
 				AFB6948A223AD56E009473AE /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1022,14 +1246,14 @@
 				APP_DISPLAY_NAME = "Credera iOS";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Q9ZL326P2;
+				DEVELOPMENT_TEAM = M5C8DWLKRL;
 				INFOPLIST_FILE = "$(SRCROOT)/Credera-iOS/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.mobile.Credera-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.Credera-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1043,14 +1267,14 @@
 				APP_DISPLAY_NAME = "Credera iOS";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Q9ZL326P2;
+				DEVELOPMENT_TEAM = M5C8DWLKRL;
 				INFOPLIST_FILE = "$(SRCROOT)/Credera-iOS/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.mobile.Credera-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.Credera-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1167,14 +1391,14 @@
 				APP_DISPLAY_NAME = "Credera iOS (QA)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_QA;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Q9ZL326P2;
+				DEVELOPMENT_TEAM = M5C8DWLKRL;
 				INFOPLIST_FILE = "$(SRCROOT)/Credera-iOS/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.mobile.Credera-iOS.QA";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.Credera-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1264,14 +1488,14 @@
 				APP_DISPLAY_NAME = "Credera iOS (QA)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_QA;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5Q9ZL326P2;
+				DEVELOPMENT_TEAM = M5C8DWLKRL;
 				INFOPLIST_FILE = "$(SRCROOT)/Credera-iOS/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.mobile.Credera-iOS.QA";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.credera.Credera-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1423,6 +1647,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B59BD30228F1060003F5997 /* MyVerses.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B59BD31228F1060003F5997 /* MyVerses.xcdatamodel */,
+			);
+			currentVersion = 4B59BD31228F1060003F5997 /* MyVerses.xcdatamodel */;
+			path = MyVerses.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5949D1A1219CBBAB006D2FF0 /* Project object */;
 }

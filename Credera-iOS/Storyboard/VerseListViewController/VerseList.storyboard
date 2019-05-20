@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wQF-zg-DZ8">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--My Verses-->
+        <scene sceneID="5QL-48-4aZ">
+            <objects>
+                <viewController storyboardIdentifier="VerseListViewController" id="f27-zb-iW8" customClass="VerseListViewController" customModule="Credera_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="935-8C-QQu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="OoC-2F-mNt">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VerseListCell" rowHeight="64" id="EdZ-LI-qh3" customClass="VerseListTableViewCell" customModule="Credera_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="64"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EdZ-LI-qh3" id="WZx-Fj-lCc">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="63.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isp-O5-NmT">
+                                                    <rect key="frame" x="15" y="15" width="345" height="33.5"/>
+                                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="isp-O5-NmT" firstAttribute="top" secondItem="WZx-Fj-lCc" secondAttribute="top" constant="15" id="Lp3-FS-tAc"/>
+                                                <constraint firstAttribute="bottom" secondItem="isp-O5-NmT" secondAttribute="bottom" constant="15" id="SbF-Fh-C8V"/>
+                                                <constraint firstItem="isp-O5-NmT" firstAttribute="leading" secondItem="WZx-Fj-lCc" secondAttribute="leading" constant="15" id="Xjy-wL-ddt"/>
+                                                <constraint firstAttribute="trailing" secondItem="isp-O5-NmT" secondAttribute="trailing" constant="15" id="ou4-fh-vuG"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="verseLabel" destination="isp-O5-NmT" id="hWH-sK-Ld4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="f27-zb-iW8" id="WxJ-fr-gDP"/>
+                                    <outlet property="delegate" destination="f27-zb-iW8" id="2Ji-bf-cVw"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OoC-2F-mNt" firstAttribute="trailing" secondItem="wtM-pR-vse" secondAttribute="trailing" id="ToO-uX-CdO"/>
+                            <constraint firstItem="OoC-2F-mNt" firstAttribute="leading" secondItem="wtM-pR-vse" secondAttribute="leading" id="egj-P4-FOH"/>
+                            <constraint firstItem="OoC-2F-mNt" firstAttribute="top" secondItem="wtM-pR-vse" secondAttribute="top" id="jtX-tr-cHE"/>
+                            <constraint firstItem="OoC-2F-mNt" firstAttribute="bottom" secondItem="wtM-pR-vse" secondAttribute="bottom" id="ro6-jT-BUz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wtM-pR-vse"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="My Verses" id="HNS-9S-FMH">
+                        <barButtonItem key="backBarButtonItem" title=" " id="djH-AB-RAd"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="emptyTableView" destination="hAG-Wu-7G5" id="3yL-mq-sV1"/>
+                        <outlet property="tableView" destination="OoC-2F-mNt" id="DoS-tK-b8B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QYu-sY-Pfv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="hAG-Wu-7G5">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Verses" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5C-lP-ihI">
+                            <rect key="frame" x="0.0" y="238" width="375" height="24"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="R5C-lP-ihI" firstAttribute="leading" secondItem="KYY-yd-7Fy" secondAttribute="leading" id="BXk-pJ-Epu"/>
+                        <constraint firstItem="R5C-lP-ihI" firstAttribute="trailing" secondItem="KYY-yd-7Fy" secondAttribute="trailing" id="ZCa-UT-U1U"/>
+                        <constraint firstItem="R5C-lP-ihI" firstAttribute="centerY" secondItem="hAG-Wu-7G5" secondAttribute="centerY" id="aKu-uA-yv0"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="KYY-yd-7Fy"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="1064.8" y="-107.49625187406298"/>
+        </scene>
+        <!--My Verses-->
+        <scene sceneID="Tth-SV-AGU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wQF-zg-DZ8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="My Verses" image="home" id="uVU-9U-UqN"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="moA-qi-6cu">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="f27-zb-iW8" kind="relationship" relationship="rootViewController" id="bhm-1o-img"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nvs-kg-DOy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.59999999999999" y="-107.49625187406298"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home" width="25" height="25"/>
+    </resources>
+</document>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Verse Detail View Controller-->
+        <scene sceneID="dah-9K-86A">
+            <objects>
+                <viewController storyboardIdentifier="VerseDetailViewController" id="Vtj-ab-lSM" customClass="VerseDetailViewController" customModule="Credera_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SYj-q2-kes">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verse Text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="US3-KN-hYA">
+                                <rect key="frame" x="20" y="70" width="335" height="22"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="US3-KN-hYA" firstAttribute="leading" secondItem="yE3-sa-SbI" secondAttribute="leading" constant="20" id="386-fC-7Ig"/>
+                            <constraint firstItem="US3-KN-hYA" firstAttribute="top" secondItem="yE3-sa-SbI" secondAttribute="top" constant="50" id="79k-Uj-R4u"/>
+                            <constraint firstItem="yE3-sa-SbI" firstAttribute="trailing" secondItem="US3-KN-hYA" secondAttribute="trailing" constant="20" id="fhN-9w-e3S"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yE3-sa-SbI"/>
+                    </view>
+                    <connections>
+                        <outlet property="verseTextLabel" destination="US3-KN-hYA" id="zwZ-ZU-8De"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BD1-oG-Hdx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.799999999999997" y="141.67916041979012"/>
+        </scene>
+    </scenes>
+</document>

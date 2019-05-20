@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Verse View Controller-->
+        <scene sceneID="iac-1Y-K5h">
+            <objects>
+                <viewController storyboardIdentifier="VerseViewController" id="jT9-vL-QC8" customClass="VerseViewController" customModule="Credera_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SOp-7o-56J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Nw3-ZE-jo0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HFl-yN-ryj">
+                                    <size key="itemSize" width="92" height="84"/>
+                                    <size key="headerReferenceSize" width="0.0" height="10"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VerseCell" id="ebz-ah-XmT" customClass="VerseCollectionViewCell" customModule="Credera_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="10" width="92" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="92" height="84"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXu-9v-ldj">
+                                                    <rect key="frame" x="0.0" y="31.5" width="92" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="EXu-9v-ldj" firstAttribute="centerY" secondItem="ebz-ah-XmT" secondAttribute="centerY" id="4od-bg-6Lz"/>
+                                            <constraint firstItem="EXu-9v-ldj" firstAttribute="leading" secondItem="ebz-ah-XmT" secondAttribute="leading" id="pFl-Vc-Uwh"/>
+                                            <constraint firstAttribute="trailing" secondItem="EXu-9v-ldj" secondAttribute="trailing" id="uDN-Fj-cxr"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="verseLabel" destination="EXu-9v-ldj" id="vcW-CK-Icv"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Zt4-ce-vKy">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="10"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionReusableView>
+                                <connections>
+                                    <outlet property="dataSource" destination="jT9-vL-QC8" id="4Pl-pB-sDw"/>
+                                    <outlet property="delegate" destination="jT9-vL-QC8" id="guw-Vc-zoj"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Nw3-ZE-jo0" firstAttribute="leading" secondItem="tY9-Ot-Dj1" secondAttribute="leading" id="6sc-wf-o3D"/>
+                            <constraint firstItem="Nw3-ZE-jo0" firstAttribute="bottom" secondItem="tY9-Ot-Dj1" secondAttribute="bottom" id="MbO-NJ-LOX"/>
+                            <constraint firstItem="Nw3-ZE-jo0" firstAttribute="top" secondItem="SOp-7o-56J" secondAttribute="top" id="UCD-jM-58A"/>
+                            <constraint firstItem="Nw3-ZE-jo0" firstAttribute="trailing" secondItem="tY9-Ot-Dj1" secondAttribute="trailing" id="XiP-rk-WF3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tY9-Ot-Dj1"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="Nw3-ZE-jo0" id="3dL-eX-6mY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7vx-Qt-mLT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.8" y="167.76611694152925"/>
+        </scene>
+    </scenes>
+</document>
